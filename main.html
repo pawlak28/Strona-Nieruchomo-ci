@@ -1,0 +1,662 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+
+  
+</head>
+<body>
+  <div class="navigation-div">
+    <div class="nav-toggle">
+        <span class="navigation-top">
+        <a href="main.html" class="logo">
+          <img style="width: 100%;" src="img/logo-new.png" />
+        </a>
+        <a>
+          <i class="hamburger fas fa-bars" style="font-size: 24px;"></i>
+        </a>
+      </span>
+    </div>
+    <ul  class="navigation none">
+      <a href="oferty.html"><li class="navigation-list">Oferty</li></a>
+      <a href="biura.html"><li href="#" class="navigation-list">Biura</li></a>
+      <a href="mieszkanie.html"><li class="navigation-list">Przykladowa oferta</li></a>
+      <a href="specjalisci.html"><li href="#" class="navigation-list">Najlepsi Specjalisci</li></a>
+      <a id="contact"><li  class="navigation-list">Kontakt</li></a>
+      <a href="#"><li class="navigation-list">Zaloguj</li></a>
+      <a href="#"><li class="navigation-list">Rejestracja</li></a>
+    </ul>
+  </div>
+  <div class="search-background">
+    <h2 class="search-title">Znajdz swój dom...</h2>
+    <div class="search-inputs">
+      <form>
+        <input class="form-control" placeholder="Miejscowosc, lub dzielnica" />
+        <select class="form-control">
+          <option>Typ Nieruchomości</option>
+          <option>Mieszkanie</option>
+          <option>Pokój</option>
+          <option>Dom</option>
+          <option>Działka</option>
+        </select>
+        <select class="form-control">
+          <option>Typ Transakcji</option>
+          <option>Na Sprzedaż</option>
+          <option>Na Wynajem</option>
+        </select>
+        <input style="width:100%;" type="button" class="btn btn-info" value="Szukaj" />
+      </form>
+    </div>
+  </div>
+  <div class="gradient" style="">
+  <div class="all-offers">
+    <div class="new-offers">
+      <h2 style="font-style:italic;">Najnowsze Oferty</h2>
+      <div class="offer-slider">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Zielonka, Prymasa Stefana</h3>
+              <h4 class="offer-type">Mieszkanie na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">71m2</li>
+                  <li class="">3 pokoje</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">1 pietro z 3</li>
+                  <li class="">1995 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>460.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:412412</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>   
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-slider">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example-2.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Milanówek, Ludna</h3>
+              <h4 class="offer-type">Dom na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">343m2</li>
+                  <li class="">7 pokoi</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">2 pietra</li>
+                  <li class="">2003 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>998.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:131068</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>      
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-slider">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example-3.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Warszawa, Praga Południe</h3>
+              <h4 class="offer-type">Mieszkanie na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">48m2</li>
+                  <li class="">3 pokoje</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">3 pietro z 10</li>
+                  <li class="">1965 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>418.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:215432</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>   
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-slider">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example-4.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Kraków, Nowa Huta Centrum</h3>
+              <h4 class="offer-type">Mieszkanie na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">52m2</li>
+                  <li class="">3 pokoje</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">parter</li>
+                  <li class="">1978 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>420.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:542454</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>   
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-slider">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example-5.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Poznań, Łazarz</h3>
+              <h4 class="offer-type">Mieszkanie na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">86m2</li>
+                  <li class="">4 pokoje</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">2 pietro z 4</li>
+                  <li class="">1912 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>650.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:763543</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>   
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-dots">
+        <span class="offer-dot active" onclick="currentSlide(1)"></span>
+        <span class="offer-dot" onclick="currentSlide(2)"></span>
+        <span class="offer-dot" onclick="currentSlide(3)"></span>
+        <span class="offer-dot" onclick="currentSlide(4)"></span>
+        <span class="offer-dot" onclick="currentSlide(5)"></span>
+      </div>
+    </div>
+    <div style="display: none;" class="new-offers">
+      <h2 style="font-style:italic;">Popularne Oferty</h2>
+      <div class="offer-slider2">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Zielonka, Prymasa Stefana</h3>
+              <h4 class="offer-type">Mieszkanie na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">71m2</li>
+                  <li class="">3 pokoje</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">1 pietro z 3</li>
+                  <li class="">1995 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>460.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:412412</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>   
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-slider2">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example-2.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Milanówek, Ludna</h3>
+              <h4 class="offer-type">Dom na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">343m2</li>
+                  <li class="">7 pokoi</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">2 pietra</li>
+                  <li class="">2003 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>998.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:131068</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>      
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-slider2">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example-3.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Warszawa, Praga Południe</h3>
+              <h4 class="offer-type">Mieszkanie na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">48m2</li>
+                  <li class="">3 pokoje</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">3 pietro z 10</li>
+                  <li class="">1965 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>418.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:215432</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>   
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-slider2">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example-4.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Kraków, Nowa Huta Centrum</h3>
+              <h4 class="offer-type">Mieszkanie na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">52m2</li>
+                  <li class="">3 pokoje</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">parter</li>
+                  <li class="">1978 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>420.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:542454</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>   
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-slider2">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example-5.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Poznań, Łazarz</h3>
+              <h4 class="offer-type">Mieszkanie na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">86m2</li>
+                  <li class="">4 pokoje</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">2 pietro z 4</li>
+                  <li class="">1912 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>650.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:763543</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>   
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-dots">
+        <span class="offer-dot offer-dot2 active" onclick="currentSlide2(1)"></span>
+        <span class="offer-dot offer-dot2" onclick="currentSlide2(2)"></span>
+        <span class="offer-dot offer-dot2" onclick="currentSlide2(3)"></span>
+        <span class="offer-dot offer-dot2" onclick="currentSlide2(4)"></span>
+        <span class="offer-dot offer-dot2" onclick="currentSlide2(5)"></span>
+      </div>
+    </div>
+    <div style="display: none;" class="new-offers">
+      <h2 style="font-style:italic;">Promocyjne Oferty</h2>
+      <div class="offer-slider3">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Zielonka, Prymasa Stefana</h3>
+              <h4 class="offer-type">Mieszkanie na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">71m2</li>
+                  <li class="">3 pokoje</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">1 pietro z 3</li>
+                  <li class="">1995 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>460.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:412412</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>   
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-slider3">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example-2.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Milanówek, Ludna</h3>
+              <h4 class="offer-type">Dom na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">343m2</li>
+                  <li class="">7 pokoi</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">2 pietra</li>
+                  <li class="">2003 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>998.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:131068</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>      
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-slider3">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example-3.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Warszawa, Praga Południe</h3>
+              <h4 class="offer-type">Mieszkanie na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">48m2</li>
+                  <li class="">3 pokoje</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">3 pietro z 10</li>
+                  <li class="">1965 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>418.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:215432</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>   
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-slider3">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example-4.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Kraków, Nowa Huta Centrum</h3>
+              <h4 class="offer-type">Mieszkanie na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">52m2</li>
+                  <li class="">3 pokoje</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">parter</li>
+                  <li class="">1978 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>420.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:542454</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>   
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-slider3">
+        <div class="offer-div">
+         <div class="offer-card">
+          <article class="offer-article fade">
+            <div class="offer-img">
+              <img src="img/img-room-example-5.jpg" />
+            </div>
+            <div class="offer-content">
+              <h3 class="offer-title">Poznań, Łazarz</h3>
+              <h4 class="offer-type">Mieszkanie na sprzedaż</h4>
+              <div class="offer-info">
+                <ul class="">
+                  <li style="float: left;width: 50%;" class="">86m2</li>
+                  <li class="">4 pokoje</li>
+                  <div style="clear: both;"></div>
+                  <li style="float: left;width: 50%;" class="">2 pietro z 4</li>
+                  <li class="">1912 rok</li>
+                </ul>
+              </div>
+              <div style="clear: both;"></div>
+              <div class="offer-price">
+                  <h3>650.000 zł</h3> 
+              </div>
+              <div class="offer-advanced">
+                  <h6>Nr oferty:763543</h6>
+                  <a class="btn btn-info" href="#">Szczegoly</a>
+              </div>
+              <div style="clear: both;"></div>
+            </div>   
+          </article>
+         </div>
+        </div>
+      </div>
+      <div class="offer-dots">
+        <span class="offer-dot offer-dot3 active" onclick="currentSlide3(1)"></span>
+        <span class="offer-dot offer-dot3" onclick="currentSlide3(2)"></span>
+        <span class="offer-dot offer-dot3" onclick="currentSlide3(3)"></span>
+        <span class="offer-dot offer-dot3" onclick="currentSlide3(4)"></span>
+        <span class="offer-dot offer-dot3" onclick="currentSlide3(5)"></span>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div style="clear: both;"></div>
+  
+  <div class="banner">
+    <div class="banner-info">
+      <div class="banner-question">Czy chcesz bezpiecznie sprzedać, lub kupić nieruchomość?<br/>Masz nieruchomość do sprzedaży bądz wynajęcia?</div>
+      <div class="banner-answer">Znajdz specjaliste, który może Ci w tym pomóc.</div>
+      <div class="banner-buttons">
+        <span>
+          <button class="btn btn-info">Znajdz Agenta</button>
+          <button class="btn btn-info">Znajdz Biuro</button>
+        </span>
+      </div>
+    </div>  
+  </div>
+  <div class="city-banner">
+    <div class="city-info">
+      <h2>WYBIERZ LOKALIZACJE</h2>
+    </div>
+    <div class="city-selection">
+      <a href="#" class="city-box" style="background: url(img/search-background.jpg) no-repeat center center;">WARSZAWA</a>
+      <a href="#"  class="city-box" style="background: url(img/krakow-cover.jpg) no-repeat center center;">KRAKÓW</a>
+      <a href="#"  class="city-box" style="background: url(img/poznan-cover.jpg) no-repeat center center;">POZNAŃ</a>
+      <a href="#"  class="city-box" style="background: url(img/bydgoszcz-cover.jpg) no-repeat center center;">BYDGOSZCZ</a>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-layout">
+      <div class="column-contact">
+        <div class="footer-logo">
+          <img style="width: 100%;" src="img/logo-new-2.png" />
+        </div>
+        <div class="footer-companyname">
+          Biuro Nieruchomosci - Siewior 
+        </div>
+        <address class="footer-contact">
+          <i class="fas fa-map-pin"> ul.Siewierska 26, 48-888 Siewior</i>  
+        </address>
+        <div class="footer-phone">
+          <i class="fas fa-phone-volume"> tel:435345345</i>
+        </div>
+        <div class="footer-mail">
+          <i class="far fa-envelope"> pawel.kowalski12@o2.pl</i>
+        </div>
+      </div>
+      <div class="column-menu">
+        <h3 class="">Menu</h3>
+        <ul class="footer-menu">
+          <li class="footer-list">Oferty</li>
+          <li class="footer-list">Biura</li>
+          <li class="footer-list">Najlepsi Specjalisci</li>
+          <li class="footer-list">Kontakt</li>
+          <li class="footer-list">Zaloguj</li>
+          <li class="footer-list">Rejestracja</li> 
+        </ul>
+      </div>
+      <div class="column-info">
+        <h3>Cos o nas</h3>
+        <ul class="footer-questions">
+          <li class="footer-info"><a href="#">Gdzie pracujemy</a></li>
+          <li class="footer-info"><a href="#">Jak działamy</a></li>   
+        </ul>
+      </div>
+      <div class="column-best-search">
+        <h3>Najczesciej trafiane</h3>
+        <ul class="footer-search-menu">
+          <a href="#"><li class="footer-search-li">Warszawa</li></a>
+          <a href="#"><li class="footer-search-li">Mokotow</li></a>    
+          <a href="#"><li class="footer-search-li">Krakow</li></a>   
+          <a href="#"><li class="footer-search-li">Lipsk</li></a> 
+        </ul>
+      </div>
+    </div>
+    <div class="footer"></div>
+  </footer>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/scriptjs3.js"></script>
+</body>
+</html>
